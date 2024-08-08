@@ -9,7 +9,7 @@ class Carousel extends HTMLElement {
 
   render(h) {
     this.innerHTML = `
-        <div style="width: 100%; position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); z-index: 20;" class="text-center">
+        <div style="width: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 20;" class="text-center">
           <div class="wrapper">
             <ul class="carousel">
                 <li class="card" style="background-image: url('../bunga-untuk-hana/assets/image-1.jpg');"></li>
